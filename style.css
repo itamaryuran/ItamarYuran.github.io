@@ -6,16 +6,18 @@
 body {
   background-color: lightblue;
 }
-img{
+#profile {
 border-radius: 50%;
 position:absolute;
 text-align: left;
+width: 200px;
+height: 200px;
 }
-links{
-  text-align: right;
+#links{
+  text-align: left;
   color:pink;
 }
-links :hover{
+#links:hover{
   color: gray;
 
 }
