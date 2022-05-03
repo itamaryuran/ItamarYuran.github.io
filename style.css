@@ -1,12 +1,12 @@
 * {
   position: sticky;
   color: rgb(143, 143, 248);
-  text-align: center;
 }
 body {
   background-color: lightblue;
 }
 #profile {
+
 border-radius: 50%;
 position:absolute;
 text-align: left;
