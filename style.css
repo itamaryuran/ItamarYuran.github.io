@@ -1,7 +1,22 @@
 * {
   position: sticky;
-  color: blue;
+  color: rgb(143, 143, 248);
   text-align: center;
 }
+body {
+  background-color: lightblue;
+}
+img{
+border-radius: 50%;
+position:absolute;
+text-align: left;
+}
+links{
+  text-align: right;
+  color:pink;
+}
+links :hover{
+  color: gray;
 
+}
 
