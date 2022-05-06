@@ -5,7 +5,7 @@
 body {
   background-color: lightblue;
 }
-#profile {
+.profile {
 
 border-radius: 50%;
 position:absolute;
@@ -13,12 +13,16 @@ text-align: right;
 width: 200px;
 height: 200px;
 }
-#links{
+.links{
   text-align: left;
   color:pink;
 }
-#links:hover{
+.links:hover{
   color: gray;
 
 }
 
+a{
+  box-shadow: 4px 12px;
+  margin: 20px;
+}
