@@ -1,28 +1,80 @@
-* {
-  position: sticky;
-  color: rgb(143, 143, 248);
+h1{
+  text-align: center; 
+  color: blanchedalmond;
+  background-color: cadetblue;
+  margin: 30px 150px;
+  padding: 40px;
 }
+
 body {
   background-color: lightblue;
 }
-.profile {
+body.profile{
+  border: 20px lightpink;
+}
 
+#profile {
+border: 20px lightpink;
+margin-right: 60px;
 border-radius: 50%;
-position:absolute;
-text-align: right;
+position:relative;
+float: right;
 width: 200px;
 height: 200px;
 }
-.links{
+
+#links:hover{
+  color: lightseagreen;
+  opacity: 90%;
+  text-decoration: none;
+  box-shadow: 20px -3px teal;
+
+
+}
+#links{
+  box-shadow: 60px -16px teal;
+  background-color: lightpink;
+  padding: 40px;
+  margin:20%;
+  /* text-decoration: underline; */
   text-align: left;
-  color:pink;
-}
-.links:hover{
-  color: gray;
-
+  color:lightgreen;
+  /* box-shadow: 12px lightpink; */
 }
 
+p{
+  color: blanchedalmond;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  background-color: lightseagreen;
+  text-align: center;
+  margin: 100px;
+  padding: 30px;
+}
+
+img{
+  border: 10px,solid, darkblue;
+}
 a{
-  box-shadow: 4px 12px;
-  margin: 20px;
+  box-shadow: 6px teal;
+  text-shadow: 200px 200px red;
+  margin: 14%;
+
+}
+
+footer{
+  margin:30px 120px 30px;
+  text-align: left;
+  font-family:  Helvetica, Arial, sans-serif;
+  line-height: 15px;
+  color: lightpink;
+  text-shadow: 1px -1px teal;
+  
+}
+.contct{
+  text-shadow: 60px -16px teal;
+  word-spacing: 60px;
+  color: pink;
+
 }
